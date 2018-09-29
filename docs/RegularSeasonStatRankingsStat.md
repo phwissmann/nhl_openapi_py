@@ -1,4 +1,4 @@
-# TeamStatsStat
+# RegularSeasonStatRankingsStat
 
 ## Properties
 Name | Type | Description | Notes

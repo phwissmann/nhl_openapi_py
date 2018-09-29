@@ -246,6 +246,7 @@ class TeamsApi(object):
 
         :param async_req bool
         :param float id: The ID of the team. (required)
+        :param float season: Return a team's specific season.
         :return: TeamStats
                  If the method is called asynchronously,
                  returns the request thread.
@@ -267,6 +268,7 @@ class TeamsApi(object):
 
         :param async_req bool
         :param float id: The ID of the team. (required)
+        :param float season: Return a team's specific season.
         :return: TeamStats
                  If the method is called asynchronously,
                  returns the request thread.
@@ -274,7 +276,7 @@ class TeamsApi(object):
 
         local_var_params = locals()
 
-        all_params = ['id']  # noqa: E501
+        all_params = ['id', 'season']  # noqa: E501
         all_params.append('async_req')
         all_params.append('_return_http_data_only')
         all_params.append('_preload_content')
@@ -293,6 +295,8 @@ class TeamsApi(object):
                 local_var_params['id'] is None):
             raise ValueError("Missing the required parameter `id` when calling `get_team_stats`")  # noqa: E501
 
+        if 'season' in local_var_params and not re.search('^\\d{8}$', local_var_params['season']):  # noqa: E501
+            raise ValueError("Invalid value for parameter `season` when calling `get_team_stats`, must conform to the pattern `/^\\d{8}$/`")  # noqa: E501
         collection_formats = {}
 
         path_params = {}
@@ -300,6 +304,8 @@ class TeamsApi(object):
             path_params['id'] = local_var_params['id']  # noqa: E501
 
         query_params = []
+        if 'season' in local_var_params:
+            query_params.append(('season', local_var_params['season']))  # noqa: E501
 
         header_params = {}
 

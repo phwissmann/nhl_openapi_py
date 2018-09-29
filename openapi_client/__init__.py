@@ -130,6 +130,8 @@ from openapi_client.models.player_stats_stat import PlayerStatsStat
 from openapi_client.models.player_stats_stats import PlayerStatsStats
 from openapi_client.models.player_stats_type import PlayerStatsType
 from openapi_client.models.players import Players
+from openapi_client.models.regular_season_stat_rankings import RegularSeasonStatRankings
+from openapi_client.models.regular_season_stat_rankings_stat import RegularSeasonStatRankingsStat
 from openapi_client.models.roster import Roster
 from openapi_client.models.roster_person import RosterPerson
 from openapi_client.models.rosters import Rosters
@@ -154,6 +156,8 @@ from openapi_client.models.standings_streak import StandingsStreak
 from openapi_client.models.standings_team_records import StandingsTeamRecords
 from openapi_client.models.stat_types import StatTypes
 from openapi_client.models.stat_types_inner import StatTypesInner
+from openapi_client.models.stats_single_season import StatsSingleSeason
+from openapi_client.models.stats_single_season_stat import StatsSingleSeasonStat
 from openapi_client.models.team import Team
 from openapi_client.models.team_next_game_schedule import TeamNextGameSchedule
 from openapi_client.models.team_next_game_schedule_dates import TeamNextGameScheduleDates
@@ -167,8 +171,6 @@ from openapi_client.models.team_next_game_schedule_teams_home import TeamNextGam
 from openapi_client.models.team_next_game_schedule_teams_home_league_record import TeamNextGameScheduleTeamsHomeLeagueRecord
 from openapi_client.models.team_roster import TeamRoster
 from openapi_client.models.team_stats import TeamStats
-from openapi_client.models.team_stats_splits import TeamStatsSplits
-from openapi_client.models.team_stats_stat import TeamStatsStat
 from openapi_client.models.team_stats_stats import TeamStatsStats
 from openapi_client.models.team_stats_type import TeamStatsType
 from openapi_client.models.teams import Teams

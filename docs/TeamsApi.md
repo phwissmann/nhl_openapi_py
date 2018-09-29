@@ -109,7 +109,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **get_team_stats**
-> TeamStats get_team_stats(id)
+> TeamStats get_team_stats(id, season=season)
 
 Get all statistics for an NHL team.
 
@@ -124,10 +124,11 @@ from pprint import pprint
 # create an instance of the API class
 api_instance = openapi_client.TeamsApi()
 id = 28 # float | The ID of the team.
+season = 20172018 # float | Return a team's specific season. (optional)
 
 try:
     # Get all statistics for an NHL team.
-    api_response = api_instance.get_team_stats(id)
+    api_response = api_instance.get_team_stats(id, season=season)
     pprint(api_response)
 except ApiException as e:
     print("Exception when calling TeamsApi->get_team_stats: %s\n" % e)
@@ -138,6 +139,7 @@ except ApiException as e:
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **float**| The ID of the team. | 
+ **season** | **float**| Return a team&#39;s specific season. | [optional] 
 
 ### Return type
 

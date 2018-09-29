@@ -33,27 +33,27 @@ class PlayerStatsStat(object):
     openapi_types = {
         'time_on_ice': 'str',
         'assists': 'str',
-        'goals': 'float',
-        'pim': 'float',
-        'shots': 'float',
-        'games': 'float',
-        'hits': 'float',
-        'power_play_goals': 'float',
-        'power_play_points': 'float',
-        'power_play_time_on_ice': 'float',
-        'even_time_on_ice': 'float',
-        'penalty_minutes': 'float',
-        'face_off_pct': 'float',
-        'shot_pct': 'float',
-        'game_winning_goals': 'float',
-        'over_time_goals': 'float',
-        'short_handed_goals': 'float',
-        'short_handed_points': 'float',
+        'goals': 'str',
+        'pim': 'str',
+        'shots': 'str',
+        'games': 'str',
+        'hits': 'str',
+        'power_play_goals': 'str',
+        'power_play_points': 'str',
+        'power_play_time_on_ice': 'str',
+        'even_time_on_ice': 'str',
+        'penalty_minutes': 'str',
+        'face_off_pct': 'str',
+        'shot_pct': 'str',
+        'game_winning_goals': 'str',
+        'over_time_goals': 'str',
+        'short_handed_goals': 'str',
+        'short_handed_points': 'str',
         'short_handed_time_on_ice': 'str',
-        'blocked': 'float',
-        'plus_minus': 'float',
-        'points': 'float',
-        'shifts': 'float',
+        'blocked': 'str',
+        'plus_minus': 'str',
+        'points': 'str',
+        'shifts': 'str',
         'time_on_ice_per_game': 'str',
         'even_time_on_ice_per_game': 'str',
         'short_handed_time_on_ice_per_game': 'str',
@@ -71,15 +71,15 @@ class PlayerStatsStat(object):
         'rank_points': 'str',
         'rank_overtime_goals': 'str',
         'rank_games_played': 'str',
-        'goals_in_first_period': 'float',
-        'goals_in_second_period': 'float',
-        'goals_in_third_period': 'float',
-        'goals_trailing_by_one': 'float',
-        'goals_trailing_by_two': 'float',
-        'goals_trailing_by_three_plus': 'float',
-        'goals_when_tied': 'float',
-        'goals_leading_by_one': 'float',
-        'goals_leading_by_two': 'float'
+        'goals_in_first_period': 'str',
+        'goals_in_second_period': 'str',
+        'goals_in_third_period': 'str',
+        'goals_trailing_by_one': 'str',
+        'goals_trailing_by_two': 'str',
+        'goals_trailing_by_three_plus': 'str',
+        'goals_when_tied': 'str',
+        'goals_leading_by_one': 'str',
+        'goals_leading_by_two': 'str'
     }
 
     attribute_map = {
@@ -335,7 +335,7 @@ class PlayerStatsStat(object):
 
 
         :return: The goals of this PlayerStatsStat.  # noqa: E501
-        :rtype: float
+        :rtype: str
         """
         return self._goals
 
@@ -345,7 +345,7 @@ class PlayerStatsStat(object):
 
 
         :param goals: The goals of this PlayerStatsStat.  # noqa: E501
-        :type: float
+        :type: str
         """
 
         self._goals = goals
@@ -356,7 +356,7 @@ class PlayerStatsStat(object):
 
 
         :return: The pim of this PlayerStatsStat.  # noqa: E501
-        :rtype: float
+        :rtype: str
         """
         return self._pim
 
@@ -366,7 +366,7 @@ class PlayerStatsStat(object):
 
 
         :param pim: The pim of this PlayerStatsStat.  # noqa: E501
-        :type: float
+        :type: str
         """
 
         self._pim = pim
@@ -377,7 +377,7 @@ class PlayerStatsStat(object):
 
 
         :return: The shots of this PlayerStatsStat.  # noqa: E501
-        :rtype: float
+        :rtype: str
         """
         return self._shots
 
@@ -387,7 +387,7 @@ class PlayerStatsStat(object):
 
 
         :param shots: The shots of this PlayerStatsStat.  # noqa: E501
-        :type: float
+        :type: str
         """
 
         self._shots = shots
@@ -398,7 +398,7 @@ class PlayerStatsStat(object):
 
 
         :return: The games of this PlayerStatsStat.  # noqa: E501
-        :rtype: float
+        :rtype: str
         """
         return self._games
 
@@ -408,7 +408,7 @@ class PlayerStatsStat(object):
 
 
         :param games: The games of this PlayerStatsStat.  # noqa: E501
-        :type: float
+        :type: str
         """
 
         self._games = games
@@ -419,7 +419,7 @@ class PlayerStatsStat(object):
 
 
         :return: The hits of this PlayerStatsStat.  # noqa: E501
-        :rtype: float
+        :rtype: str
         """
         return self._hits
 
@@ -429,7 +429,7 @@ class PlayerStatsStat(object):
 
 
         :param hits: The hits of this PlayerStatsStat.  # noqa: E501
-        :type: float
+        :type: str
         """
 
         self._hits = hits
@@ -440,7 +440,7 @@ class PlayerStatsStat(object):
 
 
         :return: The power_play_goals of this PlayerStatsStat.  # noqa: E501
-        :rtype: float
+        :rtype: str
         """
         return self._power_play_goals
 
@@ -450,7 +450,7 @@ class PlayerStatsStat(object):
 
 
         :param power_play_goals: The power_play_goals of this PlayerStatsStat.  # noqa: E501
-        :type: float
+        :type: str
         """
 
         self._power_play_goals = power_play_goals
@@ -461,7 +461,7 @@ class PlayerStatsStat(object):
 
 
         :return: The power_play_points of this PlayerStatsStat.  # noqa: E501
-        :rtype: float
+        :rtype: str
         """
         return self._power_play_points
 
@@ -471,7 +471,7 @@ class PlayerStatsStat(object):
 
 
         :param power_play_points: The power_play_points of this PlayerStatsStat.  # noqa: E501
-        :type: float
+        :type: str
         """
 
         self._power_play_points = power_play_points
@@ -482,7 +482,7 @@ class PlayerStatsStat(object):
 
 
         :return: The power_play_time_on_ice of this PlayerStatsStat.  # noqa: E501
-        :rtype: float
+        :rtype: str
         """
         return self._power_play_time_on_ice
 
@@ -492,7 +492,7 @@ class PlayerStatsStat(object):
 
 
         :param power_play_time_on_ice: The power_play_time_on_ice of this PlayerStatsStat.  # noqa: E501
-        :type: float
+        :type: str
         """
 
         self._power_play_time_on_ice = power_play_time_on_ice
@@ -503,7 +503,7 @@ class PlayerStatsStat(object):
 
 
         :return: The even_time_on_ice of this PlayerStatsStat.  # noqa: E501
-        :rtype: float
+        :rtype: str
         """
         return self._even_time_on_ice
 
@@ -513,7 +513,7 @@ class PlayerStatsStat(object):
 
 
         :param even_time_on_ice: The even_time_on_ice of this PlayerStatsStat.  # noqa: E501
-        :type: float
+        :type: str
         """
 
         self._even_time_on_ice = even_time_on_ice
@@ -524,7 +524,7 @@ class PlayerStatsStat(object):
 
 
         :return: The penalty_minutes of this PlayerStatsStat.  # noqa: E501
-        :rtype: float
+        :rtype: str
         """
         return self._penalty_minutes
 
@@ -534,7 +534,7 @@ class PlayerStatsStat(object):
 
 
         :param penalty_minutes: The penalty_minutes of this PlayerStatsStat.  # noqa: E501
-        :type: float
+        :type: str
         """
 
         self._penalty_minutes = penalty_minutes
@@ -545,7 +545,7 @@ class PlayerStatsStat(object):
 
 
         :return: The face_off_pct of this PlayerStatsStat.  # noqa: E501
-        :rtype: float
+        :rtype: str
         """
         return self._face_off_pct
 
@@ -555,7 +555,7 @@ class PlayerStatsStat(object):
 
 
         :param face_off_pct: The face_off_pct of this PlayerStatsStat.  # noqa: E501
-        :type: float
+        :type: str
         """
 
         self._face_off_pct = face_off_pct
@@ -566,7 +566,7 @@ class PlayerStatsStat(object):
 
 
         :return: The shot_pct of this PlayerStatsStat.  # noqa: E501
-        :rtype: float
+        :rtype: str
         """
         return self._shot_pct
 
@@ -576,7 +576,7 @@ class PlayerStatsStat(object):
 
 
         :param shot_pct: The shot_pct of this PlayerStatsStat.  # noqa: E501
-        :type: float
+        :type: str
         """
 
         self._shot_pct = shot_pct
@@ -587,7 +587,7 @@ class PlayerStatsStat(object):
 
 
         :return: The game_winning_goals of this PlayerStatsStat.  # noqa: E501
-        :rtype: float
+        :rtype: str
         """
         return self._game_winning_goals
 
@@ -597,7 +597,7 @@ class PlayerStatsStat(object):
 
 
         :param game_winning_goals: The game_winning_goals of this PlayerStatsStat.  # noqa: E501
-        :type: float
+        :type: str
         """
 
         self._game_winning_goals = game_winning_goals
@@ -608,7 +608,7 @@ class PlayerStatsStat(object):
 
 
         :return: The over_time_goals of this PlayerStatsStat.  # noqa: E501
-        :rtype: float
+        :rtype: str
         """
         return self._over_time_goals
 
@@ -618,7 +618,7 @@ class PlayerStatsStat(object):
 
 
         :param over_time_goals: The over_time_goals of this PlayerStatsStat.  # noqa: E501
-        :type: float
+        :type: str
         """
 
         self._over_time_goals = over_time_goals
@@ -629,7 +629,7 @@ class PlayerStatsStat(object):
 
 
         :return: The short_handed_goals of this PlayerStatsStat.  # noqa: E501
-        :rtype: float
+        :rtype: str
         """
         return self._short_handed_goals
 
@@ -639,7 +639,7 @@ class PlayerStatsStat(object):
 
 
         :param short_handed_goals: The short_handed_goals of this PlayerStatsStat.  # noqa: E501
-        :type: float
+        :type: str
         """
 
         self._short_handed_goals = short_handed_goals
@@ -650,7 +650,7 @@ class PlayerStatsStat(object):
 
 
         :return: The short_handed_points of this PlayerStatsStat.  # noqa: E501
-        :rtype: float
+        :rtype: str
         """
         return self._short_handed_points
 
@@ -660,7 +660,7 @@ class PlayerStatsStat(object):
 
 
         :param short_handed_points: The short_handed_points of this PlayerStatsStat.  # noqa: E501
-        :type: float
+        :type: str
         """
 
         self._short_handed_points = short_handed_points
@@ -692,7 +692,7 @@ class PlayerStatsStat(object):
 
 
         :return: The blocked of this PlayerStatsStat.  # noqa: E501
-        :rtype: float
+        :rtype: str
         """
         return self._blocked
 
@@ -702,7 +702,7 @@ class PlayerStatsStat(object):
 
 
         :param blocked: The blocked of this PlayerStatsStat.  # noqa: E501
-        :type: float
+        :type: str
         """
 
         self._blocked = blocked
@@ -713,7 +713,7 @@ class PlayerStatsStat(object):
 
 
         :return: The plus_minus of this PlayerStatsStat.  # noqa: E501
-        :rtype: float
+        :rtype: str
         """
         return self._plus_minus
 
@@ -723,7 +723,7 @@ class PlayerStatsStat(object):
 
 
         :param plus_minus: The plus_minus of this PlayerStatsStat.  # noqa: E501
-        :type: float
+        :type: str
         """
 
         self._plus_minus = plus_minus
@@ -734,7 +734,7 @@ class PlayerStatsStat(object):
 
 
         :return: The points of this PlayerStatsStat.  # noqa: E501
-        :rtype: float
+        :rtype: str
         """
         return self._points
 
@@ -744,7 +744,7 @@ class PlayerStatsStat(object):
 
 
         :param points: The points of this PlayerStatsStat.  # noqa: E501
-        :type: float
+        :type: str
         """
 
         self._points = points
@@ -755,7 +755,7 @@ class PlayerStatsStat(object):
 
 
         :return: The shifts of this PlayerStatsStat.  # noqa: E501
-        :rtype: float
+        :rtype: str
         """
         return self._shifts
 
@@ -765,7 +765,7 @@ class PlayerStatsStat(object):
 
 
         :param shifts: The shifts of this PlayerStatsStat.  # noqa: E501
-        :type: float
+        :type: str
         """
 
         self._shifts = shifts
@@ -1133,7 +1133,7 @@ class PlayerStatsStat(object):
 
 
         :return: The goals_in_first_period of this PlayerStatsStat.  # noqa: E501
-        :rtype: float
+        :rtype: str
         """
         return self._goals_in_first_period
 
@@ -1143,7 +1143,7 @@ class PlayerStatsStat(object):
 
 
         :param goals_in_first_period: The goals_in_first_period of this PlayerStatsStat.  # noqa: E501
-        :type: float
+        :type: str
         """
 
         self._goals_in_first_period = goals_in_first_period
@@ -1154,7 +1154,7 @@ class PlayerStatsStat(object):
 
 
         :return: The goals_in_second_period of this PlayerStatsStat.  # noqa: E501
-        :rtype: float
+        :rtype: str
         """
         return self._goals_in_second_period
 
@@ -1164,7 +1164,7 @@ class PlayerStatsStat(object):
 
 
         :param goals_in_second_period: The goals_in_second_period of this PlayerStatsStat.  # noqa: E501
-        :type: float
+        :type: str
         """
 
         self._goals_in_second_period = goals_in_second_period
@@ -1175,7 +1175,7 @@ class PlayerStatsStat(object):
 
 
         :return: The goals_in_third_period of this PlayerStatsStat.  # noqa: E501
-        :rtype: float
+        :rtype: str
         """
         return self._goals_in_third_period
 
@@ -1185,7 +1185,7 @@ class PlayerStatsStat(object):
 
 
         :param goals_in_third_period: The goals_in_third_period of this PlayerStatsStat.  # noqa: E501
-        :type: float
+        :type: str
         """
 
         self._goals_in_third_period = goals_in_third_period
@@ -1196,7 +1196,7 @@ class PlayerStatsStat(object):
 
 
         :return: The goals_trailing_by_one of this PlayerStatsStat.  # noqa: E501
-        :rtype: float
+        :rtype: str
         """
         return self._goals_trailing_by_one
 
@@ -1206,7 +1206,7 @@ class PlayerStatsStat(object):
 
 
         :param goals_trailing_by_one: The goals_trailing_by_one of this PlayerStatsStat.  # noqa: E501
-        :type: float
+        :type: str
         """
 
         self._goals_trailing_by_one = goals_trailing_by_one
@@ -1217,7 +1217,7 @@ class PlayerStatsStat(object):
 
 
         :return: The goals_trailing_by_two of this PlayerStatsStat.  # noqa: E501
-        :rtype: float
+        :rtype: str
         """
         return self._goals_trailing_by_two
 
@@ -1227,7 +1227,7 @@ class PlayerStatsStat(object):
 
 
         :param goals_trailing_by_two: The goals_trailing_by_two of this PlayerStatsStat.  # noqa: E501
-        :type: float
+        :type: str
         """
 
         self._goals_trailing_by_two = goals_trailing_by_two
@@ -1238,7 +1238,7 @@ class PlayerStatsStat(object):
 
 
         :return: The goals_trailing_by_three_plus of this PlayerStatsStat.  # noqa: E501
-        :rtype: float
+        :rtype: str
         """
         return self._goals_trailing_by_three_plus
 
@@ -1248,7 +1248,7 @@ class PlayerStatsStat(object):
 
 
         :param goals_trailing_by_three_plus: The goals_trailing_by_three_plus of this PlayerStatsStat.  # noqa: E501
-        :type: float
+        :type: str
         """
 
         self._goals_trailing_by_three_plus = goals_trailing_by_three_plus
@@ -1259,7 +1259,7 @@ class PlayerStatsStat(object):
 
 
         :return: The goals_when_tied of this PlayerStatsStat.  # noqa: E501
-        :rtype: float
+        :rtype: str
         """
         return self._goals_when_tied
 
@@ -1269,7 +1269,7 @@ class PlayerStatsStat(object):
 
 
         :param goals_when_tied: The goals_when_tied of this PlayerStatsStat.  # noqa: E501
-        :type: float
+        :type: str
         """
 
         self._goals_when_tied = goals_when_tied
@@ -1280,7 +1280,7 @@ class PlayerStatsStat(object):
 
 
         :return: The goals_leading_by_one of this PlayerStatsStat.  # noqa: E501
-        :rtype: float
+        :rtype: str
         """
         return self._goals_leading_by_one
 
@@ -1290,7 +1290,7 @@ class PlayerStatsStat(object):
 
 
         :param goals_leading_by_one: The goals_leading_by_one of this PlayerStatsStat.  # noqa: E501
-        :type: float
+        :type: str
         """
 
         self._goals_leading_by_one = goals_leading_by_one
@@ -1301,7 +1301,7 @@ class PlayerStatsStat(object):
 
 
         :return: The goals_leading_by_two of this PlayerStatsStat.  # noqa: E501
-        :rtype: float
+        :rtype: str
         """
         return self._goals_leading_by_two
 
@@ -1311,7 +1311,7 @@ class PlayerStatsStat(object):
 
 
         :param goals_leading_by_two: The goals_leading_by_two of this PlayerStatsStat.  # noqa: E501
-        :type: float
+        :type: str
         """
 
         self._goals_leading_by_two = goals_leading_by_two
