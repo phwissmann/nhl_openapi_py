@@ -31,94 +31,42 @@ class Roster(object):
                             and the value is json key in definition.
     """
     openapi_types = {
-        'person': 'RosterPerson',
-        'jersey_number': 'float',
-        'position': 'DraftProspectPrimaryPosition'
+        'roster': 'list[RosterRoster]'
     }
 
     attribute_map = {
-        'person': 'person',
-        'jersey_number': 'jerseyNumber',
-        'position': 'position'
+        'roster': 'roster'
     }
 
-    def __init__(self, person=None, jersey_number=None, position=None):  # noqa: E501
+    def __init__(self, roster=None):  # noqa: E501
         """Roster - a model defined in OpenAPI"""  # noqa: E501
 
-        self._person = None
-        self._jersey_number = None
-        self._position = None
+        self._roster = None
         self.discriminator = None
 
-        if person is not None:
-            self.person = person
-        if jersey_number is not None:
-            self.jersey_number = jersey_number
-        if position is not None:
-            self.position = position
+        if roster is not None:
+            self.roster = roster
 
     @property
-    def person(self):
-        """Gets the person of this Roster.  # noqa: E501
+    def roster(self):
+        """Gets the roster of this Roster.  # noqa: E501
 
 
-        :return: The person of this Roster.  # noqa: E501
-        :rtype: RosterPerson
+        :return: The roster of this Roster.  # noqa: E501
+        :rtype: list[RosterRoster]
         """
-        return self._person
+        return self._roster
 
-    @person.setter
-    def person(self, person):
-        """Sets the person of this Roster.
-
-
-        :param person: The person of this Roster.  # noqa: E501
-        :type: RosterPerson
-        """
-
-        self._person = person
-
-    @property
-    def jersey_number(self):
-        """Gets the jersey_number of this Roster.  # noqa: E501
+    @roster.setter
+    def roster(self, roster):
+        """Sets the roster of this Roster.
 
 
-        :return: The jersey_number of this Roster.  # noqa: E501
-        :rtype: float
-        """
-        return self._jersey_number
-
-    @jersey_number.setter
-    def jersey_number(self, jersey_number):
-        """Sets the jersey_number of this Roster.
-
-
-        :param jersey_number: The jersey_number of this Roster.  # noqa: E501
-        :type: float
+        :param roster: The roster of this Roster.  # noqa: E501
+        :type: list[RosterRoster]
         """
 
-        self._jersey_number = jersey_number
-
-    @property
-    def position(self):
-        """Gets the position of this Roster.  # noqa: E501
-
-
-        :return: The position of this Roster.  # noqa: E501
-        :rtype: DraftProspectPrimaryPosition
-        """
-        return self._position
-
-    @position.setter
-    def position(self, position):
-        """Sets the position of this Roster.
-
-
-        :param position: The position of this Roster.  # noqa: E501
-        :type: DraftProspectPrimaryPosition
-        """
-
-        self._position = position
+        self._roster = roster
 
     def to_dict(self):
         """Returns the model properties as a dict"""

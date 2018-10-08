@@ -9,7 +9,7 @@ Method | HTTP request | Description
 
 
 # **get_player**
-> Players get_player(id)
+> Player get_player(id)
 
 Get an NHL player.
 
@@ -41,7 +41,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**Players**](Players.md)
+[**Player**](Player.md)
 
 ### Authorization
 

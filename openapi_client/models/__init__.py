@@ -106,6 +106,7 @@ from openapi_client.models.photo import Photo
 from openapi_client.models.photo_cuts import PhotoCuts
 from openapi_client.models.player import Player
 from openapi_client.models.player_current_team import PlayerCurrentTeam
+from openapi_client.models.player_people import PlayerPeople
 from openapi_client.models.player_stats import PlayerStats
 from openapi_client.models.player_stats_opponent_division import PlayerStatsOpponentDivision
 from openapi_client.models.player_stats_splits import PlayerStatsSplits
@@ -117,6 +118,7 @@ from openapi_client.models.regular_season_stat_rankings import RegularSeasonStat
 from openapi_client.models.regular_season_stat_rankings_stat import RegularSeasonStatRankingsStat
 from openapi_client.models.roster import Roster
 from openapi_client.models.roster_person import RosterPerson
+from openapi_client.models.roster_roster import RosterRoster
 from openapi_client.models.rosters import Rosters
 from openapi_client.models.schedule import Schedule
 from openapi_client.models.schedule_day import ScheduleDay

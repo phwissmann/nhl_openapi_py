@@ -61,7 +61,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **get_team_roster**
-> Rosters get_team_roster(id, season=season)
+> Roster get_team_roster(id, season=season)
 
 Get an NHL team's roster.
 
@@ -95,7 +95,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**Rosters**](Rosters.md)
+[**Roster**](Roster.md)
 
 ### Authorization
 
